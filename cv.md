@@ -8,7 +8,8 @@ Highly motivated, ambitious, well organized and quick learner. Stress resistant 
 ## Technical skills:
 OS: Windows, macOS\
 Languages: HTML, CSS, JavaScript.
-## Code example <https://nehachu-ha.github.io/my-site/>
+## Code example: 
+no projects
 ## Professional Experience:
 Insurance Company "Belrosstrakh", claims department specialist
 ## Education:
