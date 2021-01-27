@@ -1,0 +1,104 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Arial;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+ 
+.photo {
+    width: 72px;
+    height: 72px;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F3E04E;
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #101214;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101214;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 50px;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 50px;
+}
+
+.heading-left-section {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808D;
+}
+
+.heading-right-section {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #73808D;
+}
+
+.content-left-section,
+.education-list {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #939597;
+}
+ 
+.contact-list,
+.skill-list,
+.english-content {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #73808D;
+}
+
+.contact-list,
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
