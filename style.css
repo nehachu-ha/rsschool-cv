@@ -5,8 +5,9 @@ font-family: Arial;
 }
 
 .container {
-    width: 595px;
+    width: 960px;
     margin: 0 auto;
+    padding-top: 50px;
 }
  
 .photo {
@@ -46,23 +47,25 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 50px 50px;
 }
 
 .container-left {
     display: flex;
     flex-direction: column;
-    width: 335px;
+    flex: 2;
 }
 
 .container-right {
     display: flex;
     flex-direction: column;
-    width: 140px;
+    flex: 1;
+    padding-left: 50px;
 }
 
 .heading-left-section {
     font-weight: normal;
-    font-size: 7px;
+    font-size: 14px;
     line-height: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -71,7 +74,7 @@ h2 {
 
 .heading-right-section {
     font-weight: bold;
-    font-size: 11px;
+    font-size: 14px;
     line-height: 18px;
     color: #73808D;
 }
@@ -79,7 +82,7 @@ h2 {
 .content-left-section,
 .education-list {
     font-weight: normal;
-    font-size: 11px;
+    font-size: 18px;
     line-height: 18px;
     color: #101214;
 }
@@ -88,7 +91,7 @@ h2 {
 .skill-list,
 .english-content {
     font-weight: normal;
-    font-size: 11px;
+    font-size: 16px;
     line-height: 18px;
     color: #73808D;
 }
