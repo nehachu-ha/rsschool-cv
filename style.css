@@ -9,7 +9,7 @@ font-family: Arial;
     margin: 0 auto;
     padding-top: 50px;
 }
- 
+
 .photo {
     width: 72px;
     height: 72px;
@@ -26,7 +26,6 @@ img {
     justify-content: space-around;
     align-items: center;
     background-color: #F3E04E;
-
 }
 
 h1{
@@ -86,7 +85,7 @@ h2 {
     line-height: 18px;
     color: #939597;
 }
- 
+
 .contact-list,
 .skill-list,
 .english-content {
@@ -101,4 +100,13 @@ h2 {
     list-style: none;
     padding: 0;
 }
+
+.footer {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: #F3E04E;
+    padding-right: 130px;
+}
+
 
